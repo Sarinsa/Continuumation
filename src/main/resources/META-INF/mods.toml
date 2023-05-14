@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All rights reserved"
+
+[[mods]]
+modId="continuumation"
+version="${file.jarVersion}"
+displayName="Continuumation"
+logoFile="orb.png"
+credits="Thanks to The Aether Team for being cool people making cool stuff (so cool)"
+authors="Sarinsa"
+
+description='''
+A simple Aether addon that reintroduces the Continuum Orb, with some extra configurability
+'''
+
+[[dependencies.continuumation]]
+    modId="forge" 
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.continuumation]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.continuumation]]
+    modId="aether"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
